@@ -19,18 +19,20 @@ export default class Tour extends Component {
 
     render() {
         return (
+           <div>
             <article className="tour">
+                
                 <div className="img-container-container">
-                <div className="img-container">
-                    <img 
-                        
-                        src={this.props.tour.img}
-                        alt="" 
-                    />
-                    <span className="close-btn" onClick={this.removeTour}>
-                       <i className="fas fa-window-close"></i>
-                    </span>
-                </div>
+                    <div className="img-container">
+                        <img 
+                            
+                            src={this.props.tour.img}
+                            alt="" 
+                        />
+                        <span className="close-btn" onClick={this.removeTour}>
+                        <i className="fas fa-window-close"></i>
+                        </span>
+                    </div>
                 </div>
                 <div className="tour-info">
                     <h3>{this.props.tour.city}</h3>    
@@ -45,6 +47,7 @@ export default class Tour extends Component {
                    
                 </div>
             </article>
+            </div>
         )
     }
 }
