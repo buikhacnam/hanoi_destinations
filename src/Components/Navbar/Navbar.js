@@ -8,6 +8,7 @@ export default class Navbar extends Component {
         return (
             <nav className="navbar">
                 <img src={logo} alt="hanoi tour" />
+                <h2>Travel Now</h2>
                 <ul className="nav-links">
                     <li>
                         <a href="/" className="nav-link">
