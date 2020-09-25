@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.5s;
 }
 
 $mainBlack: #222;
@@ -10,7 +11,7 @@ $mainWhite: #fff;
 $mainGrey: #ececec;
 
 body {
-    background: $mainWhite;
+    background: $mainGrey;
     color: $mainBlack;
     font-family: 'Open Sans', sans-serif;
 }
