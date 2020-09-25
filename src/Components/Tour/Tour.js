@@ -52,7 +52,7 @@ export default class Tour extends Component {
                             alt="" 
                         />
                         <span className="close-btn">
-                        <a target="_blank" rel='noreferrer' href={this.props.tour.wiki}><i className="fab fa-wikipedia-w"></i></a>
+                        <a target="_blank" rel=' noopener noreferrer' href={this.props.tour.wiki}><i className="fab fa-wikipedia-w"></i></a>
                         </span>
                     </div>
                 </div>
