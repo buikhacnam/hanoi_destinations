@@ -61,7 +61,7 @@ export default class Tour extends Component {
                     <h5>
                       
                         <span onClick={this.handleInfo}>
-                            <i className="fas fa-caret-square-down"></i>
+                            <i className="fas fa-chevron-down"></i>
                         </span>
                     </h5>
                     {(this.state.showInfo) && <p style={this.tourExtra()}>{this.props.tour.info}</p> }
