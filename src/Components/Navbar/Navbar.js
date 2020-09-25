@@ -19,13 +19,8 @@ export default class Navbar extends Component {
                         <a href="/" className="nav-link">
                             About
                         </a>
-                      </li>
-
-                    <li>
-                        <a href="/" className="nav-link active">
-                            Tours
-                        </a>
                     </li>
+
                 </ul>
             </nav>
         )

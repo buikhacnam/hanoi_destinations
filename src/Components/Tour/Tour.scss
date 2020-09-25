@@ -10,7 +10,7 @@
         -moz-box-shadow: 0px 6px 14px 8px rgba(94,87,94,0.72);
         box-shadow: 0px 6px 14px 8px rgba(94,87,94,0.72);
         img {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
     }
     img {
@@ -38,11 +38,14 @@
     position: absolute;
     display: block;
    
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: $mainGreen;
     cursor: pointer;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     opacity: 0;
+    a {
+        color: $mainGreen;
+    }
 }
 
 .img-container:hover .close-btn {
@@ -73,6 +76,9 @@
             cursor: pointer;
             transition: all 0.3s linear;
         }
+    }
+    a {
+        color: $mainRed;
     }
     
 }
